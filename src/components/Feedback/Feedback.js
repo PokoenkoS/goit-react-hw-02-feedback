@@ -17,7 +17,7 @@ export class Feedback extends React.Component {
          visible: true,
           
         }));
-        console.log(`кликнули`);
+     
     }
     clickNeutral = () =>{
         this.setState(prevState =>({
@@ -25,7 +25,7 @@ export class Feedback extends React.Component {
             visible: true,
              
            }));
-        console.log(`кликнули N`);
+    
     }
     clickBad = () =>{
         this.setState(prevState =>({
@@ -33,12 +33,10 @@ export class Feedback extends React.Component {
             visible: true,
              
            }));
-        console.log(`кликнули B`);
- 
+       
         
     }
 
-   
     render() {
         return (
             <div>

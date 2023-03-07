@@ -10,4 +10,4 @@ import React from "react";
     )
 }
 
-export default Controls
+export default Controls;
